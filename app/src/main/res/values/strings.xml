@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Brewing?</string>
+    <string name="calculators">Calculators</string>
+    <string name="current_brews">Current Brews</string>
+    <string name="favourite_recipes">Favourite Recipes</string>
+    <string name="abv_calculator">ABV Calculator</string>
+    <string name="final_gravity">Final Gravity</string>
+    <string name="original_gravity">Original Gravity</string>
+    <string name="_1_000">1.000</string>
+    <string name="_1_070">1.070</string>
+    <string name="alcohol_by_volume">Alcohol by Volume</string>
+    <string name="_9_22">9.22%</string>
+    <string name="sugar_content_gravity_converter">Sugar Content / Gravity Converter</string>
+    <string name="swap">Swap</string>
+    <string name="sugar_concentration_g_l">Sugar Concentration (g/l)</string>
+    <string name="specific_gravity">Specific Gravity</string>
+    <string name="_200">200</string>
+    <string name="_1_083">1.083</string>
+    <string name="sugar_addition_calculator">Sugar Addition Calculator</string>
+    <string name="volume_l">Volume (l)</string>
+    <string name="target_gravity">Target Gravity</string>
+    <string name="_4_55">4.55</string>
+    <string name="_1_080">1.080</string>
+    <string name="sugar_required_g">Sugar Required (g)</string>
+    <string name="calculate">Calculate</string>
+    <string name="_137g">137g</string>
+    <string name="add_sugar_required">Add. Sugar Required</string>
+    <string name="title_activity_current_brews">CurrentBrews</string>
+    <string name="homebrew_app">Homebrew App</string>
+    <string name="label_name">Name</string>
+    <string name="name">Name</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="save">Save</string>
+    <string-array name="units">
+        <item>g</item>
+        <item>kg</item>
+        <item>ml</item>
+        <item>l</item>
+    </string-array>
+
+</resources>
