@@ -45,7 +45,6 @@ public class ABV_Calculator extends AppCompatActivity {
     }
 
     public void Calculate(View view) {
-        //Intent intent = new Intent(this, ABV_Calculator.class );
         EditText etOG = findViewById(R.id.editText3);
         EditText etFG = findViewById(R.id.editText4);
 

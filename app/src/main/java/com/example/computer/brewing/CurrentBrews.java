@@ -42,8 +42,6 @@ public class CurrentBrews extends AppCompatActivity {
 
         final ArrayList<Recipe> RecipeList = new ArrayList<Recipe>();
 
-        //Recipe[] Recipes = new Recipe[values.length];
-
 
         for (int l = 0 ; l< values.length; l++) {
             if (values[l].substring(0, values[l].indexOf('~')).equals("recipe")) {
@@ -54,10 +52,7 @@ public class CurrentBrews extends AppCompatActivity {
             } else {
                 valuesName[l] = "";
                 valuesDate[l] = "";
-                //RecipeList.set(l,null);
-                //Recipes[l] = null;
-                //Recipes[l].name=valuesName[l];
-                //Recipes[l].date=valuesDate[l];
+
             }
         }
 
@@ -67,9 +62,6 @@ public class CurrentBrews extends AppCompatActivity {
 
         final ListView listview = (ListView) findViewById(R.id.listView);
 
-
-        /*final StableArrayAdapter adapter = new StableArrayAdapter(this,
-                android.R.layout.simple_list_item_1, DateList);*/
 //-----------------------------------------------------------------------------------------------------------------------------------------
         final String TEXT1 = "text1";
         final String TEXT2 = "text2";
@@ -113,30 +105,6 @@ public class CurrentBrews extends AppCompatActivity {
 
     String item = "";
 
-    /*private class StableArrayAdapter extends ArrayAdapter<String> {
-
-        HashMap<String, Integer> mIdMap = new HashMap<String, Integer>();
-
-        public StableArrayAdapter(Context context, int textViewResourceId,
-                                  List<String> objects) {
-            super(context, textViewResourceId, objects);
-            for (int i = 0; i < objects.size(); ++i) {
-                mIdMap.put(objects.get(i), i);
-            }
-        }
-
-        @Override
-        public long getItemId(int position) {
-            String item = getItem(position);
-            return mIdMap.get(item);
-        }
-
-        @Override
-        public boolean hasStableIds() {
-            return true;
-        }
-
-    }*/
 
 
 
@@ -150,23 +118,6 @@ public class CurrentBrews extends AppCompatActivity {
         brewViewIntent.putExtra("RecipeViewed", item);
         startActivity(brewViewIntent);
     }
-
-
-    public boolean FileExists(String fname) {
-        File file = getBaseContext().getFileStreamPath(fname);
-        return file.exists();
-    }
-
-
-
-
-
-
-
-
-
-
-
 
 
 

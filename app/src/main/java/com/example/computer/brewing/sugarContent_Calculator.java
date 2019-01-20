@@ -19,8 +19,6 @@ public class sugarContent_Calculator extends AppCompatActivity {
 
     private static DecimalFormat df3 = new DecimalFormat(".000");
 
-    //EditText bottom = findViewById(R.id.editText5);
-
     Boolean topsg = false;
 
     public void Swap(View view) {
@@ -62,7 +60,6 @@ public class sugarContent_Calculator extends AppCompatActivity {
 
 
         public void Calculate(View view) {
-        //Intent intent = new Intent(this, ABV_Calculator.class );
         EditText input = findViewById(R.id.editText6);
         TextView output = findViewById(R.id.textView4);
         if (topsg) {

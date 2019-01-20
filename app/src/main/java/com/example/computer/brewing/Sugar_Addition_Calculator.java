@@ -14,7 +14,6 @@ public class Sugar_Addition_Calculator extends AppCompatActivity {
         setContentView(R.layout.activity_sugar__addition__calculator);
     }
     public void Calculate(View view) {
-        //Intent intent = new Intent(this, ABV_Calculator.class );
 
         EditText etOG = findViewById(R.id.editText);
         EditText etRG = findViewById(R.id.editText5);

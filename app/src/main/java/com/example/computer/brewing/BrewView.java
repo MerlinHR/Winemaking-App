@@ -29,15 +29,6 @@ public class BrewView extends AppCompatActivity {
 
 
 
-
-
-
-        //ourRecipe(file).ingredientAndQuant[0][i],ourRecipe(file).ingredientAndQuant[1][i]
-
-        /*NamView.setText(ourRecipe(file).name);
-        SGView.setText(ourRecipe(file).SG);
-        DatView.setText(ourRecipe(file).date);*/
-
         fileName=fileName();
         Display();
 
@@ -46,10 +37,8 @@ public class BrewView extends AppCompatActivity {
 //================================================================================================================
     public int numberOfLines = 0;
 
-    String hi = "hi";
     String fileName = "";
 
-    //String file = "";
     String fileName () {
         Bundle extras = getIntent().getExtras();
         if (extras!= null) {
@@ -239,6 +228,10 @@ public class BrewView extends AppCompatActivity {
         String file = readFromFile(this, fileName);
         brewEditIntent.putExtra("recipe", file);
         startActivity(brewEditIntent);
+    }
+
+    public void delete (View view) {
+        getApplicationContext().deleteFile(fileName);
     }
 
 

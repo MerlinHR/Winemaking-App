@@ -57,7 +57,7 @@ public class BrewEdit extends AppCompatActivity {
                 int day = cldr.get(Calendar.DAY_OF_MONTH);
                 int month = cldr.get(Calendar.MONTH);
                 int year = cldr.get(Calendar.YEAR);
-                // date picker dialog
+
                 DatePickerDialog picker = new DatePickerDialog(BrewEdit.this,
                         new DatePickerDialog.OnDateSetListener() {
 

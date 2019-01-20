@@ -154,7 +154,6 @@
                     android:layout_weight="1"
                     android:background="@color/colorPrimaryDark"
                     android:text="Archive"
-                    android:onClick="archive"
                     android:textColor="@android:color/background_light"
                     android:textSize="18sp"
                     android:layout_centerInParent="true" />
